@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/user"
+            android:title="My Profile" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/notify"
+            android:title="Notification" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/tv"
+            android:title="Videos" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/search"
+            android:title="Search Ground" />
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/share"
+            android:title="Search with friend" />
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/setting"
+            android:title="Setting" />
+    </group>
+
+</menu>
